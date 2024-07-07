@@ -10,6 +10,7 @@ const Features = () => {
                     <div className="grid-item">
                         <img
                             src={`${process.env.PUBLIC_URL}/images/${d.icon}.svg`}
+                            alt={`icon-${index}`}
                         />{' '}
                         <p>{d.text}</p>
                     </div>

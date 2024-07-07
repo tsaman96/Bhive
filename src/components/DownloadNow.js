@@ -6,7 +6,9 @@ const DownloadNow = () => {
             <h3>Download our app now</h3>
             <div className="content">
                 <div className="footer-image">
-                    <img src={`${process.env.PUBLIC_URL}/images/footer.svg`} />
+                    <img src={`${process.env.PUBLIC_URL}/images/footer.svg`} 
+                    alt='mobile-phone'
+                    />
                 </div>
                 <div className="message">
                     <p>
@@ -17,9 +19,11 @@ const DownloadNow = () => {
                     <div className="download-icons">
                         <img
                             src={`${process.env.PUBLIC_URL}/images/google-play.svg`}
+                            alt='play-store'
                         />
                         <img
                             src={`${process.env.PUBLIC_URL}/images/app-store.svg`}
+                            alt='app-store'
                         />
                     </div>
                 </div>

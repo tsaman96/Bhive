@@ -4,9 +4,9 @@ import { response } from '../constants/data'
 const Arrows = () => {
     return (
         <div className="arrows">
-            <img src={`${process.env.PUBLIC_URL}/images/arrow-light.svg`} />
-            <img src={`${process.env.PUBLIC_URL}/images/arrow.svg`} />
-            <img src={`${process.env.PUBLIC_URL}/images/arrow-dark.svg`} />
+            <img src={`${process.env.PUBLIC_URL}/images/arrow-light.svg`} alt='arrow-1'/>
+            <img src={`${process.env.PUBLIC_URL}/images/arrow.svg`} alt='arrow-2'/>
+            <img src={`${process.env.PUBLIC_URL}/images/arrow-dark.svg`} alt='arrow-3'/>
         </div>
     )
 }
@@ -19,6 +19,7 @@ const Card = ({ data }) => {
                 <div className="icon">
                     <img
                         src={`${process.env.PUBLIC_URL}/images/direction.svg`}
+                        alt='direction'
                     />
                     <p>{data.distance}</p>
                 </div>
@@ -26,6 +27,7 @@ const Card = ({ data }) => {
             <div className="image">
                 <img
                     src={`${process.env.PUBLIC_URL}/images/${data.images[0]}`}
+                    alt='space'
                 />
             </div>
             <div className="footer">
